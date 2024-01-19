@@ -1,0 +1,6 @@
+# From nng source directory
+
+mkdir build
+cd .\build\
+cmake "-G" "Visual Studio 17 2022" "-DBUILD_SHARED_LIBS=ON" ..
+cmake --build . --config RelWithDebInfo
